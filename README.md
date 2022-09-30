@@ -1,4 +1,4 @@
-For table of security vulnerabilities found: https://gray-spoonbill-1cc.notion.site/OWASP-Hackathon-ea9354f17d444d45b2629659fb5b686d
+For table of security vulnerabilities found: https://gray-spoonbill-1cc.notion.site/Can-signup-without-any-details-1b58aeffbea1431cb4e6378f458794a0
 
 
 <img src="static/falihax.png" width="200" />
