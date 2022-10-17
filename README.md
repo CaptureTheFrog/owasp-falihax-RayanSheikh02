@@ -7,6 +7,7 @@ For table of security vulnerabilities found: https://gray-spoonbill-1cc.notion.s
 
 # Falihax OWASP Hackathon
 
+[**Now marked by CyberSoc, click here for personal feedback!**](FEEDBACK.md)
 
 
 ## Premise

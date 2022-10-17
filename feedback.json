@@ -1,0 +1,37 @@
+{
+  "repo": "RayanSheikh02/owasp-falihax",
+  "summary": "A partial understanding of a few vulnerabilities, however with some mistakes in the writeup. Unfortunately, no working fixes were completed so only a limited number of marks could be awarded.\n\nNote: No marks were awarded for the \"error on signup page still changes to an authenticated user page\" vulnerability in the writeup, as I couldn't replicate this or find any reason this would occur in the code. If screenshot evidence was provided or some attempt to fix it, more marks could have been awarded.",
+  "found_vulns": [
+    {
+      "id": "A01-03",
+      "marks": {
+        "state": true,
+        "show": false,
+        "demo": false,
+        "mitigate": false,
+        "attempt": true,
+        "works": false,
+        "explain": false
+      },
+      "note": "Nice work spotting this one! However, a mark was lost as the solution provided doesn't work 100% - since the admin view is returned immediately if the user is admin, the credit score processing code afterwards that is run when a POST request is recieved from the form can no longer run."
+    },
+    {
+      "id": "B02-01",
+      "marks": {
+        "state": true,
+        "show": false,
+        "demo": false,
+        "mitigate": false,
+        "attempt": false,
+        "works": false,
+        "explain": false
+      }
+    }
+  ],
+  "additional": [
+    {
+      "name": "Password field not set to not null",
+      "description": "You are correct in that this is a mistake in the web app, however it's not security critical. I'm not sure if I misunderstood your writeup, but \"not null\" doesn't have anything to do with validating passwords, it simply means if the field is allowed to be empty or not in the database. For a field with some contents, it makes no difference in use in this way.\n\nI couldn't replicate your claim that you can sign in as any user just with a username, nor was any evidence provided so this can only be given one mark as a quality of life fix unfortunately."
+    }
+  ]
+}
